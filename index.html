@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="./index.js"></script>
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+  <main>
+    <div class="main-container flex-row">
+      <div class="info-container flex-column">
+        <img src="./images/logo.svg" alt="company logo" class="logo">
+        <div class="image-container-mobile flex-row">
+          <img src="./images/hero-mobile.jpg" alt="young woman" class="hero-photo-mobile">
+        </div>
+        <div class="form-container">
+          <p class="title">
+            We're <span class="title-accent">coming soon</span>
+          </p>
+          <p class="desc">
+            Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.
+          </p>
+          <div class="input-container flex-row">
+            <input type="email" placeholder="Email Address" id="email-input" class="email-input">
+            <img src="./images/icon-error.svg" alt="error icon" id="error-icon" class="error-icon element-invisible">
+            <button id="submit-btn" class="submit-btn">
+              <img src="./images/icon-arrow.svg" alt="arrow icon" class="arrow-icon">
+            </button>
+          </div>
+          <p id="error-message" class="error-message element-invisible">Please provide a valid email</p>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="./images/hero-desktop.jpg" alt="young woman" class="hero-photo">
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/alexattt" target="_blank">Aleksandra Timofejeva</a>.
+    </div>
+  </main>
+</body>
+</html>
