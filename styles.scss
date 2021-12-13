@@ -191,7 +191,6 @@ main {
 
   .submit-btn {
     position: absolute;
-    display: inline-block;
     height: 45px;
     width: 80px;
     border-radius: 50px;
@@ -255,6 +254,10 @@ main {
 
   @media screen and (max-width: 1030px) {
     margin-left: 18%;
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1030px) {
+    margin-left: 31%;
   }
 }
 
