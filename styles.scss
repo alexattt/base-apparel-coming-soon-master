@@ -191,6 +191,7 @@ main {
 
   .submit-btn {
     position: absolute;
+    display: inline-block;
     height: 45px;
     width: 80px;
     border-radius: 50px;
@@ -200,7 +201,6 @@ main {
     box-shadow: 0px 8px 30px 0px #f8bfbf;
     transition: all 0.3s ease-out;
     cursor: pointer;
-    overflow: auto;
 
     .arrow-icon {
       margin-left: auto;
@@ -234,7 +234,7 @@ main {
     }
 
     @media only screen and (min-device-width: 768px) and (max-device-width: 1030px) {
-      right: 35%;
+      margin-left: 45%;
     }
   }
 

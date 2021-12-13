@@ -236,6 +236,7 @@ main {
 
 .input-container .submit-btn {
   position: absolute;
+  display: inline-block;
   height: 45px;
   width: 80px;
   border-radius: 50px;
@@ -247,7 +248,6 @@ main {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   cursor: pointer;
-  overflow: auto;
 }
 
 .input-container .submit-btn .arrow-icon {
@@ -292,7 +292,7 @@ main {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1030px) {
   .input-container .error-icon {
-    right: 35%;
+    margin-left: 45%;
   }
 }
 
