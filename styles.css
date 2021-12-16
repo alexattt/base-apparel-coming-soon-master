@@ -87,7 +87,6 @@ main {
 }
 
 .main-container {
-  height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
